@@ -73,11 +73,11 @@ class Coinster:
         pygame.display.flip()
 
     def game_over(self, text):        
-        game_text = self.game_font.render(text, True, (255,100,10))
+        game_text = self.game_font.render(text, True, (255,10,10))
         self.window.blit(game_text, (Coinster.W/2 - 225, Coinster.H/2 - 25))
-        game_text = self.game_font.render("F2 = new game", True, (255, 100, 10))
+        game_text = self.game_font.render("F2 = new game", True, (255, 10, 10))
         self.window.blit(game_text, (Coinster.W/2 - 225, Coinster.H/2 + 25))
-        game_text = self.game_font.render("Esc = exit game", True, (255, 100, 10))
+        game_text = self.game_font.render("Esc = exit game", True, (255, 10, 10))
         self.window.blit(game_text, (Coinster.W/2 + 25, Coinster.H/2 + 25))
 
     def exit(self):
