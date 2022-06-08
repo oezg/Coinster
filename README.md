@@ -8,6 +8,7 @@ It is not always easy as the monster becomes quicker and quicker the more coins 
 How to play:
 1. `pip install pygame` in the terminal. 
 2. Copy these files into a folder 
+
     main.py, monster.png, coin.png, robot.png and door.png  
 3. Run `python3 main.py`
 
